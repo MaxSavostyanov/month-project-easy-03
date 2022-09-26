@@ -1,8 +1,12 @@
 .warranty__list {
-  margin: 0;
-  padding: 0;
   display: grid; 
   grid-template-columns: repeat(4, 1fr); 
-  grid-template-rows: 1fr; 
+  grid-template-rows: 1fr;
+  grid-auto-rows: 1fr;
   gap: 20px; 
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
 }
