@@ -1,0 +1,4 @@
+.card__heading {
+  @include font-style(32px, 32px, $color_white);
+  padding-top: 20px;
+}

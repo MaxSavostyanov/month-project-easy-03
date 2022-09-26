@@ -1,0 +1,7 @@
+.header__heading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px; }
+
+/*# sourceMappingURL=header__heading-container.css.map */

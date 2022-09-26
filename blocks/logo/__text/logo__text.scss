@@ -1,0 +1,4 @@
+.logo__text {
+  @include font-style(22px, 30px, $color_white);
+  text-decoration: none;
+}

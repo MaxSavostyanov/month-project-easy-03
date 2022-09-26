@@ -1,0 +1,7 @@
+@mixin input-button {
+  display: block;
+  margin: 0;
+  padding: 13px 16px;
+  border: none;
+  @include font-style(14px, 24px, $color_white);
+}

@@ -1,0 +1,15 @@
+.write-us__input {
+  @include input-button;
+  @include transition (background);
+  width: 348px;
+  background: rgba(142, 142, 152, 0.2);
+  border-radius: 8px 0px 0px 8px;
+  letter-spacing: 0.375px;
+  outline: none;
+}
+
+.write-us__input:hover,
+.write-us__input:focus {
+  background: rgba(142, 142, 152, 0.3);
+  cursor: pointer;
+}

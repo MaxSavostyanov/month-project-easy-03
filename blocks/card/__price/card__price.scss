@@ -1,0 +1,4 @@
+.card__price {
+  @include font-style(14px, 14px, $color_green);
+  padding-top: 40px;
+}
