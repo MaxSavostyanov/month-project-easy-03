@@ -524,7 +524,8 @@ template {
 .card {
   padding: 40px;
   border-radius: 16px;
-  background-color: #1C1C1E; }
+  background-color: #1C1C1E;
+  transition: all 0.25s ease-in; }
 
 .card:hover {
   background-color: #232327;

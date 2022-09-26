@@ -2,6 +2,7 @@
   padding: 40px;
   border-radius: 16px;
   background-color: $color-card;
+  @include transition;
 }
 
 .card:hover {
