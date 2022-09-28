@@ -517,10 +517,12 @@ template {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  width: 100%;
   gap: 12px; }
 
 .write-us__form {
-  display: flex; }
+  display: flex;
+  width: 100%; }
 
 .write-us__input {
   display: block;
@@ -536,6 +538,7 @@ template {
   width: 45vw;
   max-width: 348px;
   min-width: 229px;
+  box-sizing: border-box;
   background: rgba(142, 142, 152, 0.2);
   border-radius: 8px 0px 0px 8px;
   letter-spacing: 0.375px;
@@ -546,6 +549,10 @@ template {
   background: rgba(142, 142, 152, 0.3);
   cursor: pointer; }
 
+@media screen and (max-width: 500px) {
+  .write-us__input {
+    width: calc(100% - 50px);
+    min-width: 200px; } }
 .write-us__button {
   border-radius: 0px 8px 8px 0px; }
 
@@ -721,7 +728,7 @@ template {
 
 @media screen and (max-width: 500px) {
   .services__list {
-    grid-template-columns: repeat(auto-fit, 1fr); } }
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr)); } }
 /*WARRANTY*/
 .warranty {
   display: flex;
@@ -816,10 +823,14 @@ template {
     gap: 40px;
     padding-top: 30px; } }
 .footer__write-us {
+  width: 100%;
   padding-top: 84px; }
 
 @media screen and (max-width: 500px) {
   .footer__write-us {
     padding-top: 184px; } }
+@media screen and (max-width: 500px) {
+  .footer__left {
+    width: 100%; } }
 
 /*# sourceMappingURL=index.css.map */
