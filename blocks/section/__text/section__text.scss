@@ -1,3 +1,15 @@
 .section__text {
   @include font-style(32px, 40px, $color-text);
 }
+
+@media screen and (max-width: 900px) {
+  .section__text {
+    @include font-style(20px, 30px, $color-text);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .section__text {
+    @include font-style(12px, 18px, $color-text);
+  }
+}

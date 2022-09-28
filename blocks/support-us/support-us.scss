@@ -2,3 +2,15 @@
   @include flex-column;
   gap: 50px;
 }
+
+@media screen and (max-width: 900px) {
+  .support-us {
+    gap: 40px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .support-us {
+    gap: 30px;
+  }
+}

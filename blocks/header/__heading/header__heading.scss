@@ -1,3 +1,15 @@
 .header__heading {
   @include font-style(112px, 112px, $color_white);
 }
+
+@media screen and (max-width: 900px) {
+  .header__heading {
+    @include font-style(70px, 90px, $color_white);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header__heading {
+    @include font-style(50px, 60px, $color_white);
+  }
+}

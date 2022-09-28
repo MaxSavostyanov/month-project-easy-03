@@ -2,3 +2,9 @@
   @include flex-column;
   gap: 60px;
 }
+
+@media screen and (max-width: 500px) {
+  .warranty {
+    gap: 40px;
+  }
+}

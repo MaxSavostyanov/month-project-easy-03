@@ -1,3 +1,9 @@
 .footer__write-us {
   padding-top: 84px;
 }
+
+@media screen and (max-width: 500px) {
+  .footer__write-us {
+    padding-top: 184px;
+  }
+}

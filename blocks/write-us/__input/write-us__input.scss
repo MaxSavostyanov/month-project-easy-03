@@ -1,7 +1,9 @@
 .write-us__input {
   @include input-button;
   @include transition (background);
-  width: 348px;
+  width: 45vw;
+  max-width: 348px;
+  min-width: 229px;
   background: rgba(142, 142, 152, 0.2);
   border-radius: 8px 0px 0px 8px;
   letter-spacing: 0.375px;

@@ -1,3 +1,15 @@
 .header__write-us {
   padding-top: calc(230px - 60px);
 }
+
+@media screen and (max-width: 900px) {
+  .header__write-us {
+    padding-top: calc(470px - 70px);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .header__write-us {
+    padding-top: calc(260px - 60px);
+  }
+}

@@ -1,3 +1,16 @@
 .collage__row_second {
   grid-template-columns: 1fr 730px;
 }
+
+@media screen and (max-width: 900px) {
+  .collage__row_second {
+    grid-template-columns: 1fr 455px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .collage__row_second {
+    grid-template-columns: 1fr;
+    grid-template-rows: 39vw 66vw;
+  }
+}

@@ -3,3 +3,15 @@
   padding: 60px 160px;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 1100px) {
+  .section {
+    padding: 60px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .section {
+    padding: 40px 20px 30px;
+  }
+}

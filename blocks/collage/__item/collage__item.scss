@@ -5,6 +5,12 @@
   background-size: cover;
 }
 
+@media screen and (max-width: 500px) {
+  .collage__item {
+    border-radius: 4px;
+  }
+}
+
 .collage__row_first .collage__item:nth-child(1){
   background-image: url('../images/collage-item-1.jpg');
 }

@@ -1,3 +1,10 @@
 .collage__row_first {
   grid-template-columns: 448px 1fr;
 }
+
+@media screen and (max-width: 650px) {
+  .collage__row_first {
+    grid-template-columns: 1fr;
+    grid-template-rows: 44vw 21vw;
+  }
+}

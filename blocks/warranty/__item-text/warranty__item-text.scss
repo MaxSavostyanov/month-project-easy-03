@@ -3,3 +3,9 @@
   font-size: 15px;
   line-height: 19px;
 }
+
+@media screen and (max-width: 500px) {
+  .warranty__item-text {
+    padding-top: 36px;
+  }
+}
