@@ -11,18 +11,18 @@
   }
 }
 
-.collage__row_first .collage__item:nth-child(1){
+.collage__first-row .collage__item:nth-child(1){
   background-image: url('../images/collage-item-1.jpg');
 }
 
-.collage__row_first .collage__item:nth-child(2){
+.collage__first-row .collage__item:nth-child(2){
   background-color: $collage_item-2;
 }
 
-.collage__row_second .collage__item:nth-child(1){
+.collage__second-row .collage__item:nth-child(1){
   background-color: $collage_item-3;
 }
 
-.collage__row_second .collage__item:nth-child(2){
+.collage__second-row .collage__item:nth-child(2){
   background-image: url('../images/collage-item-4.jpg');
 }

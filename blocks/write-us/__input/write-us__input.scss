@@ -3,7 +3,7 @@
   @include transition (background);
   width: 45vw;
   max-width: 348px;
-  min-width: 229px;
+  flex-grow: 1;
   box-sizing: border-box;
   background: rgba(142, 142, 152, 0.2);
   border-radius: 8px 0px 0px 8px;
@@ -15,11 +15,4 @@
 .write-us__input:focus {
   background: rgba(142, 142, 152, 0.3);
   cursor: pointer;
-}
-
-@media screen and (max-width: 500px) {
-  .write-us__input {
-    width: calc(100% - 50px);
-    min-width: 200px;
-  }
 }

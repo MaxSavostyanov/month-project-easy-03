@@ -13,11 +13,11 @@ const buttonSubmitTextCheck = {
 }
 
 function setButtonText(button, text) {
-  if (window.innerWidth <= 750 && button.textContent !== text.mobile) {
+  if (window.innerWidth <= 650 && button.textContent !== text.mobile) {
     button.textContent = text.mobile;
   }
 
-  if (window.innerWidth > 750 && button.textContent !== text.dekstop) {
+  if (window.innerWidth > 650 && button.textContent !== text.dekstop) {
     button.textContent = text.dekstop;
   }
 }

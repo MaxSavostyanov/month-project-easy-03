@@ -2,3 +2,10 @@
   @include font-style(22px, 30px, $color_white);
   text-decoration: none;
 }
+
+@media screen and (max-width: 500px) {
+  .warranty__item-text {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}

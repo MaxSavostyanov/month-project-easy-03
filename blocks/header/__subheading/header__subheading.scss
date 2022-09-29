@@ -1,15 +1,17 @@
 .header__subheading {
-  @include font-style(70px, 80px, $color_white);
+  @include font-style(80px, 70px, $color_white);
 }
 
 @media screen and (max-width: 900px) {
   .header__subheading {
-    @include font-style(50px, 60px, $color_white);
+    font-size: 50px;
+    line-height: 60px;
   }
 }
 
 @media screen and (max-width: 500px) {
   .header__subheading {
-    @include font-style(30px, 38px, $color_white);
+    font-size: 30px;
+    line-height: 38px;
   }
 }

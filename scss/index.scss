@@ -19,6 +19,7 @@
 @import '../blocks/header/__subheading/header__subheading.scss';
 @import '../blocks/header/__write-us/header__write-us.scss';
 @import '../blocks/header/__caption/header__caption.scss';
+@import '../blocks/header/__logo/header__logo.scss';
 /*LOGO*/
 @import '../blocks/logo/logo.scss';
 @import '../blocks/logo/__text/logo__text.scss';
@@ -37,9 +38,8 @@
 /*COLLAGE*/
 @import '../blocks/collage/collage.scss';
 @import '../blocks/collage/__container/collage__container.scss';
-@import '../blocks/collage/__row/collage__row.scss';
-@import '../blocks/collage/__row/_first/collage__row_first.scss';
-@import '../blocks/collage/__row/_second/collage__row_second.scss';
+@import '../blocks/collage/__first-row/collage__first-row.scss';
+@import '../blocks/collage/__second-row/collage__second-row.scss';
 @import '../blocks/collage/__item/collage__item.scss';
 /*ABOUT-US*/
 @import '../blocks/about-us/about-us.scss';

@@ -6,6 +6,7 @@
 @media screen and (max-width: 500px) {
   .card__text {
     padding-top: 28px;
-    @include font-style(12px, 18px, $color-text);
+    font-size: 12px;
+    line-height: 18px;
   }
 }

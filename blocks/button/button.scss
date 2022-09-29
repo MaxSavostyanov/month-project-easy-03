@@ -3,6 +3,8 @@
   background: #47474C;
   border-radius: 8px;
   letter-spacing: 0.4px;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
 .button:hover {
