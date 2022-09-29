@@ -527,19 +527,19 @@ template {
   font-size: 14px;
   line-height: 24px;
   color: #FFFFFF;
-  transition: background 0.25s ease-in;
+  transition: background-color 0.25s ease-in;
   width: 45vw;
   max-width: 348px;
   flex-grow: 1;
   box-sizing: border-box;
-  background: rgba(142, 142, 152, 0.2);
+  background-color: rgba(142, 142, 152, 0.2);
   border-radius: 8px 0px 0px 8px;
   letter-spacing: 0.375px;
   outline: none; }
 
 .write-us__input:hover,
 .write-us__input:focus {
-  background: rgba(142, 142, 152, 0.3);
+  background-color: rgba(142, 142, 152, 0.3);
   cursor: pointer; }
 
 @media screen and (max-width: 900px) {
@@ -750,12 +750,14 @@ template {
 
 .warranty__item-text {
   padding-top: 38px;
-  font-size: 12px;
-  line-height: 18px; }
+  font-size: 15px;
+  line-height: 19px; }
 
 @media screen and (max-width: 500px) {
   .warranty__item-text {
-    padding-top: 36px; } }
+    padding-top: 36px;
+    font-size: 12px;
+    line-height: 18px; } }
 /*SUPPORT-US*/
 .support-us {
   display: flex;
@@ -781,7 +783,6 @@ template {
 @media screen and (max-width: 500px) {
   .support-us__button {
     width: 100%;
-    padding: 13px 0;
     font-size: 12px;
     line-height: 18px;
     text-align: center; } }
