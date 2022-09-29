@@ -16,3 +16,9 @@
   background: rgba(142, 142, 152, 0.3);
   cursor: pointer;
 }
+
+@media screen and (max-width: 900px) {
+  .write-us__input {
+    max-width: 100%;
+  }
+}
