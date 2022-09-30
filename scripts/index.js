@@ -1,7 +1,6 @@
 const buttonsSubmitList = document.querySelectorAll('.write-us__button');
 const emailsList = document.querySelectorAll('.write-us__input');
 const writeUsFormsList = document.querySelectorAll('.write-us__form');
-let onSubmit = false;
 
 const buttonSubmitText = {
   dekstop: 'Отремонтируйте камеру ✌️',
@@ -24,7 +23,7 @@ function setButtonText(button, text) {
 }
 
 function checkOnSubmit(email) {
-  if (onSubmit && email.value) {
+  if (email.onSubmit) {
     setButtonText(email.nextElementSibling, buttonSubmitTextCheck);
   } else {
     setButtonText(email.nextElementSibling, buttonSubmitText);
@@ -37,7 +36,7 @@ function checkForm(event) {
   const button = event.target.querySelector('.write-us__button');
   if (input.checkValidity()) {
     setButtonText(button, buttonSubmitTextCheck);
-    onSubmit = true;
+    input.onSubmit = true;
   }
 }
 
@@ -47,7 +46,7 @@ window.addEventListener('resize', () => {
 
 emailsList.forEach(email => email.addEventListener('input', (event) => {
   setButtonText(event.target.nextElementSibling, buttonSubmitText);
-  onSubmit = false;
+  email.onSubmit = false;
 }));
 
 writeUsFormsList.forEach(form => form.addEventListener('submit', checkForm));

@@ -317,7 +317,7 @@ template {
   margin: 0 auto;
   width: 100%;
   max-width: 1440px;
-  min-width: 320px;
+  min-width: 300px;
   box-sizing: border-box;
   font-family: 'Roboto', Arial, sans-serif;
   font-weight: 400;
@@ -469,7 +469,7 @@ template {
   text-decoration: none; }
 
 @media screen and (max-width: 500px) {
-  .warranty__item-text {
+  .logo__text {
     font-size: 20px;
     line-height: 28px; } }
 /*LABEL-OPEN*/
@@ -513,6 +513,9 @@ template {
   width: 100%;
   gap: 12px; }
 
+@media screen and (max-width: 900px) {
+  .write-us {
+    gap: 10px; } }
 .write-us__form {
   display: flex;
   width: 100%; }
@@ -783,6 +786,7 @@ template {
 @media screen and (max-width: 500px) {
   .support-us__button {
     width: 100%;
+    padding: 16px 20px;
     font-size: 12px;
     line-height: 18px;
     text-align: center; } }
@@ -792,9 +796,10 @@ template {
 
 @media screen and (max-width: 900px) {
   .footer {
-    padding-top: 150px; } }
+    padding-top: 148px; } }
 @media screen and (max-width: 500px) {
   .footer {
+    padding-top: 145px;
     padding-bottom: 20px; } }
 .footer__container {
   display: flex;
@@ -816,9 +821,13 @@ template {
   width: 100%;
   padding-top: 84px; }
 
+@media screen and (max-width: 900px) {
+  .footer__write-us {
+    gap: 18px; } }
 @media screen and (max-width: 500px) {
   .footer__write-us {
-    padding-top: 184px; } }
+    padding-top: 184px;
+    gap: 10px; } }
 @media screen and (max-width: 500px) {
   .footer__left {
     width: 100%; } }
