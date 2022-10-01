@@ -1,0 +1,17 @@
+.header__heading {
+  @include font-style(112px, 112px, $color_white);
+}
+
+@media screen and (max-width: 900px) {
+  .header__heading {
+    font-size: 70px;
+    line-height: 90px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header__heading {
+    font-size: 50px;
+    line-height: 60px;
+  }
+}

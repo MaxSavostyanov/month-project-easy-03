@@ -1,0 +1,17 @@
+.card {
+  padding: 40px;
+  border-radius: 16px;
+  background-color: $color-card;
+  @include transition;
+}
+
+.card:hover {
+  background-color: $color-card_hover;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+  .card {
+    padding: 20px;
+  }
+}

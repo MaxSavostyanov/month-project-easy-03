@@ -1,0 +1,10 @@
+.label-open {
+  box-sizing: border-box;
+  min-height: 20px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  
+  background: $color_label-open;
+
+  @include font-style(12px, 12px, $color_black);
+}

@@ -1,0 +1,10 @@
+.write-us__button {
+  border-radius: 0px 8px 8px 0px;
+}
+
+@media screen and (max-width: 750px) {
+  .write-us__button {
+    min-width: 50px;
+    min-height: 50px;
+  }
+}

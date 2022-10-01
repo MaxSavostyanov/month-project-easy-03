@@ -1,0 +1,17 @@
+.footer__write-us {
+  width: 100%;
+  padding-top: 84px;
+}
+
+@media screen and (max-width: 900px) {
+  .footer__write-us {
+    gap: 18px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer__write-us {
+    padding-top: 184px;
+    gap: 10px;
+  }
+}

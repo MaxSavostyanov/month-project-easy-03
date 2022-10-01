@@ -1,0 +1,12 @@
+.card__price {
+  @include font-style(14px, 14px, $color_green);
+  padding-top: 40px;
+}
+
+@media screen and (max-width: 500px) {
+  .card__price {
+    font-size: 12px;
+    line-height: 18px;
+    padding-top: 100px;
+  }
+}

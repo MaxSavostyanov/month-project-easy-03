@@ -1,0 +1,16 @@
+.page {
+  @include flex-column(center);
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1440px;
+  min-width: 300px;
+  box-sizing: border-box;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

@@ -1,0 +1,28 @@
+.collage__item {
+  border-radius: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 500px) {
+  .collage__item {
+    border-radius: 4px;
+  }
+}
+
+.collage__first-row .collage__item:nth-child(1){
+  background-image: url('../images/collage-item-1.jpg');
+}
+
+.collage__first-row .collage__item:nth-child(2){
+  background-color: $collage_item-2;
+}
+
+.collage__second-row .collage__item:nth-child(1){
+  background-color: $collage_item-3;
+}
+
+.collage__second-row .collage__item:nth-child(2){
+  background-image: url('../images/collage-item-4.jpg');
+}

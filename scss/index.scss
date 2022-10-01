@@ -1,0 +1,69 @@
+@import '../vendor/normalize.scss';
+@import '../vendor/fonts/fonts.scss';
+@import '../scss/variables.scss';
+@import '../scss/mixins/flex-column.scss';
+@import '../scss/mixins/font-style.scss';
+@import '../scss/mixins/input-button.scss';
+@import '../scss/mixins/transition.scss';
+
+@import '../blocks/body/body.scss';
+@import '../blocks/page/page.scss';
+/*SECTION*/
+@import '../blocks/section/section.scss';
+@import '../blocks/section/__heading/section__heading.scss';
+@import '../blocks/section/__text/section__text.scss';
+/*HEADER*/
+@import '../blocks/header/header.scss';
+@import '../blocks/header/__heading-container/header__heading-container.scss';
+@import '../blocks/header/__heading/header__heading.scss';
+@import '../blocks/header/__subheading/header__subheading.scss';
+@import '../blocks/header/__write-us/header__write-us.scss';
+@import '../blocks/header/__caption/header__caption.scss';
+@import '../blocks/header/__logo/header__logo.scss';
+/*LOGO*/
+@import '../blocks/logo/logo.scss';
+@import '../blocks/logo/__text/logo__text.scss';
+/*LABEL-OPEN*/
+@import '../blocks/label-open/label-open.scss';
+/*BUTTON*/
+@import '../blocks/button/button.scss';
+/*WRITE-US*/
+@import '../blocks/write-us/write-us.scss';
+@import '../blocks/write-us/__form/write-us__form.scss';
+@import '../blocks/write-us/__input/write-us__input.scss';
+@import '../blocks/write-us/__button/write-us__button.scss';
+@import '../blocks/write-us/__caption/write-us__caption.scss';
+/*MAIN*/
+@import '../blocks/main/main.scss';
+/*COLLAGE*/
+@import '../blocks/collage/collage.scss';
+@import '../blocks/collage/__container/collage__container.scss';
+@import '../blocks/collage/__first-row/collage__first-row.scss';
+@import '../blocks/collage/__second-row/collage__second-row.scss';
+@import '../blocks/collage/__item/collage__item.scss';
+/*ABOUT-US*/
+@import '../blocks/about-us/about-us.scss';
+/*CARD*/
+@import '../blocks/card/card.scss';
+@import '../blocks/card/__category/card__category.scss';
+@import '../blocks/card/__heading/card__heading.scss';
+@import '../blocks/card/__text/card__text.scss';
+@import '../blocks/card/__price/card__price.scss';
+/*SERVICES*/
+@import '../blocks/services/__list/services__list.scss';
+/*WARRANTY*/
+@import '../blocks/warranty/warranty.scss';
+@import '../blocks/warranty/__item/warranty__item.scss ';
+@import '../blocks/warranty/__list/warranty__list.scss';
+@import '../blocks/warranty/__item-heading/warranty__item-heading.scss';
+@import '../blocks/warranty/__item-text/warranty__item-text.scss';
+/*SUPPORT-US*/
+@import '../blocks/support-us/support-us.scss';
+@import '../blocks/support-us/__heading/support-us__heading.scss';
+@import '../blocks/support-us/__button/support-us__button.scss';
+/*FOOTER*/
+@import '../blocks/footer/footer.scss';
+@import '../blocks/footer/__container/footer__container.scss';
+@import '../blocks/footer/__write-us/footer__write-us.scss';
+@import '../blocks/footer/__copyright/footer__copyright.scss';
+@import '../blocks/footer/__left/footer__left.scss';

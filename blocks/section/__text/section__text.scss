@@ -1,0 +1,17 @@
+.section__text {
+  @include font-style(32px, 40px, $color-text);
+}
+
+@media screen and (max-width: 900px) {
+  .section__text {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .section__text {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}

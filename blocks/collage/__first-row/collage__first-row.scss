@@ -1,0 +1,14 @@
+.collage__first-row {
+  display: grid;
+  grid-template-rows: 1fr;
+  gap: 20px;
+  width: 100%;
+  grid-template-columns: 448px 1fr;
+}
+
+@media screen and (max-width: 650px) {
+  .collage__first-row {
+    grid-template-columns: 1fr;
+    grid-template-rows: 44vw 21vw;
+  }
+}

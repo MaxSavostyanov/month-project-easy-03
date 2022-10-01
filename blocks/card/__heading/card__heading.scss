@@ -1,0 +1,11 @@
+.card__heading {
+  @include font-style(32px, 32px, $color_white);
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .card__heading {
+    padding-top: 10px;
+    font-size: 24px;
+  }
+}

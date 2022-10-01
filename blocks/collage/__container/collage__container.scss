@@ -1,0 +1,19 @@
+.collage__container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 230px 552px;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 900px) {
+  .collage__container {
+    grid-template-rows: 230px 344px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .collage__container {
+    grid-template-rows: auto;
+  }
+}

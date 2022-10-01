@@ -1,0 +1,10 @@
+.about-us {
+  @include flex-column;
+  gap: 60px;
+}
+
+@media screen and (max-width: 500px) {
+  .about-us {
+    gap: 20px;
+  }
+}

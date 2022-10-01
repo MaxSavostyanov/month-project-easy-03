@@ -1,0 +1,12 @@
+.card__text {
+  @include font-style(32px, 40px, $color-text);
+  padding-top: 40px;
+}
+
+@media screen and (max-width: 500px) {
+  .card__text {
+    padding-top: 28px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+}

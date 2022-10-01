@@ -1,0 +1,24 @@
+.write-us__input {
+  @include input-button;
+  @include transition (background-color);
+  width: 45vw;
+  max-width: 348px;
+  flex-grow: 1;
+  box-sizing: border-box;
+  background-color: rgba(142, 142, 152, 0.2);
+  border-radius: 8px 0px 0px 8px;
+  letter-spacing: 0.375px;
+  outline: none;
+}
+
+.write-us__input:hover,
+.write-us__input:focus {
+  background-color: rgba(142, 142, 152, 0.3);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+  .write-us__input {
+    max-width: 100%;
+  }
+}

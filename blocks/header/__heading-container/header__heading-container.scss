@@ -1,0 +1,16 @@
+.header__heading-container {
+  @include flex-column;
+  gap: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  .header__heading-container {
+    gap: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header__heading-container {
+    gap: 10px;
+  }
+}
